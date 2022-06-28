@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+APPEND_MODE	inc/createList.h	/^#define APPEND_MODE /;"	d
+BUFFER_SIZE	inc/createList.h	/^#define BUFFER_SIZE /;"	d
+CSV_FILE	inc/createList.h	/^#define CSV_FILE /;"	d
+FALSE	src/main.c	/^#define FALSE /;"	d	file:
+NAME_SIZE	src/main.c	/^#define NAME_SIZE /;"	d	file:
+NUMBER_SIZE	src/main.c	/^#define NUMBER_SIZE /;"	d	file:
+READ_MODE	inc/createList.h	/^#define READ_MODE /;"	d
+TRUE	src/main.c	/^#define TRUE /;"	d	file:
+WRITE_MODE	inc/createList.h	/^#define WRITE_MODE /;"	d
+addContact	src/createList.c	/^int addContact()$/;"	f	typeref:typename:int
+addNode	src/createList.c	/^int addNode(char *tName, char *tNumber)$/;"	f	typeref:typename:int
+deleteContact	src/deleteList.c	/^int deleteContact()$/;"	f	typeref:typename:int
+editNumber	src/editList.c	/^int editNumber()$/;"	f	typeref:typename:int
+findNumber	src/findFromList.c	/^int findNumber()$/;"	f	typeref:typename:int
+head	src/main.c	/^}*head=NULL, *tail=NULL;$/;"	v	typeref:struct:node *
+main	src/main.c	/^int main()$/;"	f	typeref:typename:int
+menu	src/main.c	/^int menu()$/;"	f	typeref:typename:int
+name	src/main.c	/^        char name[NAME_SIZE];$/;"	m	struct:node	typeref:typename:char[]	file:
+node	src/main.c	/^struct node$/;"	s	file:
+number	src/main.c	/^        char number[NUMBER_SIZE];$/;"	m	struct:node	typeref:typename:char[]	file:
+printAllContact	src/printList.c	/^int printAllContact()$/;"	f	typeref:typename:int
+ptr	src/main.c	/^        struct node *ptr;$/;"	m	struct:node	typeref:struct:node *	file:
+readAndCreateList	src/createList.c	/^int readAndCreateList(struct node *hPtr)$/;"	f	typeref:typename:int
+sortAllContacts	src/sortList.c	/^int sortAllContacts()$/;"	f	typeref:typename:int
+updateFileContain	src/createList.c	/^int updateFileContain()$/;"	f	typeref:typename:int
+writeIntoFile	src/createList.c	/^int writeIntoFile(char *tName, char *tNumber)$/;"	f	typeref:typename:int
